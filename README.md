@@ -1,35 +1,35 @@
 # Input-Masking-Directive
-Input masking directive for angular apps
+Input masking directive for angular apps<br/><br/>
 
-How to use!
+How to use!<br/><br/>
 
-The default selector for this directive is [appMask] 
+The default selector for this directive is [appMask] <br/><br/>
 
-this directive takes an attribute called MaskType 
-and also, this directive emits all unmasked values
-through an eventEmitter called "unmasked"
+this directive takes an attribute called MaskType <br/>
+and also, this directive emits all unmasked values <br/>
+through an eventEmitter called "unmasked" <br/><br/>
 
-first we should create an input that uses the appMask directive
-and we need to asign that input a MaskType attribute with one of 
-the following values
+first we should create an input that uses the appMask directive <br/>
+and we need to asign that input a MaskType attribute with one of <br/>
+the following values <br/>
 
-/*
+/* <br/>
  "shortDate"      format: mm/yy  <br/>
- "longDate"       format: dd/mm/yyyy
- "phoneNumber"    format: (###) ###-####
- "ssn"            format: ###-##-####
- "shortZipCode"   format: #####
- "longZipCode"    format: #####-####
- "cardNumber"     format: #### #### #### #### (of variable length)
- "cvv"            format: ### or ####
- "dollarAmount"   format: $###.## (dollar amount of variable length)
-*/
+ "longDate"       format: dd/mm/yyyy <br/>
+ "phoneNumber"    format: (###) ###-#### <br/>
+ "ssn"            format: ###-##-#### <br/>
+ "shortZipCode"   format: ##### <br/>
+ "longZipCode"    format: #####-#### <br/>
+ "cardNumber"     format: #### #### #### #### (of variable length) <br/>
+ "cvv"            format: ### or #### <br/>
+ "dollarAmount"   format: $###.## (dollar amount of variable length) <br/>
+*/<br/><br/>
 
-our example input could look like 
+our example input could look like <br/>
 
-<!--snippet from my-component.html-->
-<div class="ShortDate">
-    <label for="ShortDate">Short Date</label>
+<!--snippet from my-component.html--> <br/>
+<div class="ShortDate"> <br/>
+    <label for="ShortDate">Short Date</label> <br/>
     <br />
     <input appMask MaskType="shortDate" formControlName="ShortDate" (unmasked)="checkUnmasked($event)">
 </div>
