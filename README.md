@@ -43,7 +43,9 @@ our example input could look like <br/>
  
  //snippet from my-component.ts<br/>
  //takes a string reference which will hold the emitted value <br/>
+ ```js
  checkUnmasked(curString: string, event: Event) {<br/>
     //simply logs the emitted value <br/>
     console.log(curString) <br/>
   }<br/>
+  ```
