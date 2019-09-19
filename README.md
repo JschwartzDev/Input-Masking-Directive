@@ -7,7 +7,7 @@ The default selector for this directive is [appMask]
 
 this directive takes an attribute called MaskType <br/>
 also, this directive emits all unmasked values <br/>
-through an eventEmitter called "unmasked" <br/><br/>
+through an eventEmitter called "unmasked" 
 
 first we should create an input that uses the appMask directive <br/>
 and we need to asign that input a MaskType attribute with one of <br/>
