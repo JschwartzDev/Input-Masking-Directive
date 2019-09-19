@@ -1,9 +1,9 @@
 # Input-Masking-Directive
 Input masking directive for angular apps<br/>
 
-<h4>How to use!</h4><br/>
+<h4>How to use!</h4>
 
-The default selector for this directive is [appMask] <br/>
+The default selector for this directive is [appMask] 
 
 this directive takes an attribute called MaskType <br/>
 and also, this directive emits all unmasked values <br/>
