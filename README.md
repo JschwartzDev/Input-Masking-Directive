@@ -28,12 +28,13 @@ the following values <br/>
 our example input could look like <br/>
 
 //snippet from my-component.html  <br/>
-div class="ShortDate"> <br/>
-    label for="ShortDate">Short Date</label <br/>
+```html
+<div class="ShortDate"> 
+ <label for="ShortDate">Short Date</label>
     <br />
-    input appMask MaskType="shortDate" formControlName="ShortDate" (unmasked)="checkUnmasked($event)"><br/>
-/div><br/><br/>
-
+    <input appMask MaskType="shortDate" formControlName="ShortDate" (unmasked)="checkUnmasked($event)">
+<div>
+```
  //appMask to asign the directive <br/>
  //MaskType to tell the directive what type of input this is <br/>
  //(unmasked) property to grab the emitted values. <br/><br/>
