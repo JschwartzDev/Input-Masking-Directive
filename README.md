@@ -14,7 +14,7 @@ and we need to asign that input a MaskType attribute with one of
 the following values
 
 /*
- "shortDate"      format: mm/yy  
+ "shortDate"      format: mm/yy  <br/>
  "longDate"       format: dd/mm/yyyy
  "phoneNumber"    format: (###) ###-####
  "ssn"            format: ###-##-####
