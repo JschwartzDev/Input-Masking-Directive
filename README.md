@@ -28,11 +28,11 @@ the following values <br/>
 our example input could look like <br/>
 
 //snippet from my-component.html  <br/>
-<div class="ShortDate"> <br/>
-    <label for="ShortDate">Short Date</label> <br/>
+div class="ShortDate"> <br/>
+    label for="ShortDate">Short Date</label <br/>
     <br />
-    <input appMask MaskType="shortDate" formControlName="ShortDate" (unmasked)="checkUnmasked($event)">
-</div>
+    input appMask MaskType="shortDate" formControlName="ShortDate" (unmasked)="checkUnmasked($event)"><br/>
+/div><br/><br/>
 
  //appMask to asign the directive <br/>
  //MaskType to tell the directive what type of input this is <br/>
@@ -42,7 +42,7 @@ our example input could look like <br/>
  
  //snippet from my-component.ts<br/>
  //takes a string reference which will hold the emitted value <br/>
- checkUnmasked(curString: string, event: Event) {
-    //simply logs the emitted value
-    console.log(curString)
-  }
+ checkUnmasked(curString: string, event: Event) {<br/>
+    //simply logs the emitted value <br/>
+    console.log(curString) <br/>
+  }<br/>
