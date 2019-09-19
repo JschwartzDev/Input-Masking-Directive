@@ -35,16 +35,53 @@ our example input could look like <br/>
     <input appMask MaskType="shortDate" formControlName="ShortDate" (unmasked)="checkUnmasked($event)">
 <div>
 ```
- //appMask to asign the directive <br/>
- //MaskType to tell the directive what type of input this is <br/>
- //(unmasked) property to grab the emitted values. <br/><br/>
+//appMask to asign the directive <br/>
+//MaskType to tell the directive what type of input this is <br/>
+//(unmasked) property to grab the emitted values. <br/><br/>
  
- the example function called on (unmasked) - <br/>
- //snippet from my-component.ts<br/>
- //takes a string reference which will hold the emitted value <br/>
- ```js
- checkUnmasked(curString: string, event: Event) {
-    //simply logs the emitted value 
-    console.log(curString) 
-  }
-  ```
+the example function called on (unmasked) - <br/>
+//snippet from my-component.ts<br/>
+//takes a string reference which will hold the emitted value <br/>
+```js
+checkUnmasked(curString: string, event: Event) {
+  //simply logs the emitted value 
+  console.log(curString) 
+}
+```
+  
+so if we want to use multiple utilities of this directive we would <br/>
+need to write multiple different functions to call on each (unmasked) event<br/>
+  
+ex:
+  
+//component.html
+```html
+<div class="ShortDate">
+      <label for="ShortDate">Short Date</label>
+      <br />
+      <input appMask MaskType="shortDate" formControlName="ShortDate" (unmasked)="getShortDate($event)">
+    </div>
+
+    <div class="LongDate">
+      <label for="LongDate">Long Date</label>
+      <br />
+      <input appMask MaskType="longDate" type="text" formControlName="LongDate" (unmasked)="getLongDate($event)">
+    </div>
+```
+
+//component.ts
+```js
+getShortDate(curString: string, event: Event){
+ console.log('short date', curString);
+}
+
+getLongDate(curString: string, event: Event){
+ console.log('long date', curString);
+}
+```
+
+above shows us how to get each separate date that is being emitted!<br/><br/>
+
+hopefully this was enough of an explanation. happy coding!
+
+
