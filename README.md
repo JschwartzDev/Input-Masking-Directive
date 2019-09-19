@@ -57,16 +57,16 @@ ex:
 //component.html
 ```html
 <div class="ShortDate">
-      <label for="ShortDate">Short Date</label>
-      <br />
-      <input appMask MaskType="shortDate" formControlName="ShortDate" (unmasked)="getShortDate($event)">
-    </div>
+    <label for="ShortDate">Short Date</label>
+    <br />
+    <input appMask MaskType="shortDate" formControlName="ShortDate" (unmasked)="getShortDate($event)">
+</div>
 
-    <div class="LongDate">
-      <label for="LongDate">Long Date</label>
-      <br />
-      <input appMask MaskType="longDate" type="text" formControlName="LongDate" (unmasked)="getLongDate($event)">
-    </div>
+<div class="LongDate">
+   <label for="LongDate">Long Date</label>
+   <br />
+   <input appMask MaskType="longDate" type="text" formControlName="LongDate" (unmasked)="getLongDate($event)">
+</div>
 ```
 
 //component.ts
