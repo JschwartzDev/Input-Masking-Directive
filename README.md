@@ -17,7 +17,7 @@ the following values <br/>
  "shortDate"      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: mm/yy  <br/>
  "longDate"       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: dd/mm/yyyy <br/>
  "phoneNumber"    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: (###) ###-#### <br/>
- "ssn"            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: ###-##-#### <br/>
+ "ssn"            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: ###-##-#### <br/>
  "shortZipCode"   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: ##### <br/>
  "longZipCode"    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: #####-#### <br/>
  "cardNumber"     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: #### #### #### #### (of variable length) <br/>
