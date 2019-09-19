@@ -39,8 +39,7 @@ our example input could look like <br/>
  //MaskType to tell the directive what type of input this is <br/>
  //(unmasked) property to grab the emitted values. <br/><br/>
  
- the example function called on (unmasked) - <br/><br/>
- 
+ the example function called on (unmasked) - <br/>
  //snippet from my-component.ts<br/>
  //takes a string reference which will hold the emitted value <br/>
  ```js
