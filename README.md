@@ -6,7 +6,7 @@ Input masking directive for angular apps<br/>
 The default selector for this directive is [appMask] 
 
 this directive takes an attribute called MaskType <br/>
-and also, this directive emits all unmasked values <br/>
+also, this directive emits all unmasked values <br/>
 through an eventEmitter called "unmasked" <br/><br/>
 
 first we should create an input that uses the appMask directive <br/>
