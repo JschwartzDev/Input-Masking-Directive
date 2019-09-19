@@ -14,15 +14,15 @@ and we need to asign that input a MaskType attribute with one of <br/>
 the following values <br/>
 
 /* <br/>
- "shortDate"      format: mm/yy  <br/>
- "longDate"       format: dd/mm/yyyy <br/>
- "phoneNumber"    format: (###) ###-#### <br/>
- "ssn"            format: ###-##-#### <br/>
- "shortZipCode"   format: ##### <br/>
- "longZipCode"    format: #####-#### <br/>
- "cardNumber"     format: #### #### #### #### (of variable length) <br/>
- "cvv"            format: ### or #### <br/>
- "dollarAmount"   format: $###.## (dollar amount of variable length) <br/>
+ "shortDate"      &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: mm/yy  <br/>
+ "longDate"       &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: dd/mm/yyyy <br/>
+ "phoneNumber"    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: (###) ###-#### <br/>
+ "ssn"            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: ###-##-#### <br/>
+ "shortZipCode"   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: ##### <br/>
+ "longZipCode"    &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: #####-#### <br/>
+ "cardNumber"     &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: #### #### #### #### (of variable length) <br/>
+ "cvv"            &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: ### or #### <br/>
+ "dollarAmount"   &nbsp;&nbsp;&nbsp;&nbsp;&nbsp;&nbsp;format: $###.## (dollar amount of variable length) <br/>
 */<br/><br/>
 
 our example input could look like <br/>
