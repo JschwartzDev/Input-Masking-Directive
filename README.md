@@ -30,9 +30,9 @@ our example input could look like <br/>
 //snippet from my-component.html  <br/>
 ```html
 <div class="ShortDate"> 
- <label for="ShortDate">Short Date</label>
-    <br />
-    <input appMask MaskType="shortDate" formControlName="ShortDate" (unmasked)="checkUnmasked($event)">
+   <label for="ShortDate">Short Date</label>
+   <br />
+   <input appMask MaskType="shortDate" formControlName="ShortDate" (unmasked)="checkUnmasked($event)">
 <div>
 ```
 //appMask to asign the directive <br/>
