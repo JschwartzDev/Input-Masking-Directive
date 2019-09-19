@@ -27,21 +27,21 @@ the following values <br/>
 
 our example input could look like <br/>
 
-<!--snippet from my-component.html--> <br/>
+//snippet from my-component.html  <br/>
 <div class="ShortDate"> <br/>
     <label for="ShortDate">Short Date</label> <br/>
     <br />
     <input appMask MaskType="shortDate" formControlName="ShortDate" (unmasked)="checkUnmasked($event)">
 </div>
 
- //appMask to asign the directive
- //MaskType to tell the directive what type of input this is
- //(unmasked) property to grab the emitted values.  
+ //appMask to asign the directive <br/>
+ //MaskType to tell the directive what type of input this is <br/>
+ //(unmasked) property to grab the emitted values. <br/><br/>
  
- the example function called on (unmasked) -
+ the example function called on (unmasked) - <br/><br/>
  
- <!--snippet from my-component.ts-->
- //takes a string reference which will hold the emitted value
+ //snippet from my-component.ts<br/>
+ //takes a string reference which will hold the emitted value <br/>
  checkUnmasked(curString: string, event: Event) {
     //simply logs the emitted value
     console.log(curString)
