@@ -41,7 +41,7 @@ our example input could look like <br/>
  
 the example function called on (unmasked) - <br/>
 //snippet from my-component.ts<br/>
-//takes a param to reference the data object which will 
+//takes a param to reference the data object which will<br/>
 //hold the emitted value <br/>
 ```js
 checkUnmasked(data: any, event: Event) {
