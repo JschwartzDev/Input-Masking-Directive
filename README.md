@@ -41,9 +41,10 @@ our example input could look like <br/>
  
 the example function called on (unmasked) - <br/>
 //snippet from my-component.ts<br/>
-//takes a string reference which will hold the emitted value <br/>
+//takes a param to reference the data object which will 
+//hold the emitted value <br/>
 ```js
-checkUnmasked(curString: string, event: Event) {
+checkUnmasked(data: any, event: Event) {
   //simply logs the emitted value 
   console.log(curString) 
 }
@@ -71,12 +72,12 @@ ex:
 
 //component.ts
 ```js
-getShortDate(curString: string, event: Event){
- console.log('short date', curString);
+getShortDate(data: any, event: Event){
+ console.log('short date', data);
 }
 
-getLongDate(curString: string, event: Event){
- console.log('long date', curString);
+getLongDate(data: any, event: Event){
+ console.log('long date', data);
 }
 ```
 
